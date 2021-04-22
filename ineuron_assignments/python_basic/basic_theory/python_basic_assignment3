@@ -1,0 +1,14 @@
+1. if i use functions there is no need to rewrite a same code block for same work again and again.
+2. when it's called.
+3. def
+4. function is the code block written to execute some particular task which is not workable unless and until we call the function to work i.e. function call .
+5.  there is one global and local scope in python.
+6. as the local variable are situated inside a function so it returns only the output of the particular work at that point of time and retains it's value till it's get called again.
+7. the return statement  gives the output of given inputs through the function. no it's not possible.
+8. it will return none.
+9.  i just have to use the keyword global before the variable name.
+10. NoneType
+11. it will import the module which is already installed in the current environment.
+12. spam.bacon()
+13. i just use try and except. in except part i will use pass for the initial period.
+14. in try all statements are being executed untill there occurs a exception, except is used to handle that exception.

@@ -1,0 +1,19 @@
+1. we use [] to make a list
+2. spam.insert(2,'hello')
+ spam=['a','b','c','d']
+3. 'd'
+4. 'd'
+5. ['a','b']
+ bacon=[3.14, 'cat',11 ,'cat', True]
+6. 1
+7. [3.14, 'cat', 11, 'cat', True, 99]
+8. [3.14, 11, 'cat', True, 99]
+9. '+' and '*'
+10. append() insert the new items to the end of the list where insert() gives the power to allocate your items where you want.
+11. remove() and pop()
+12. Lists are similar to strings, which are ordered collections of characters
+13. tuples are immutable whereas lists are mutable
+14. s=(42)
+15. let a is a list and b is a tuple, 1) c=list(b) 2) d=tuple(a)
+16. types of variables
+17. deepcopy() copies original object recursively, while . copy() create a reference object to first-level data of original object. 

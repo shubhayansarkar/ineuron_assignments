@@ -1,0 +1,21 @@
+1.  \' = Single Quote
+    \\ = Backslash
+    \n = New Line
+    \r = Carriage Return
+    \t = Tab
+    \b = Backspace
+    \f =Form Feed
+    \ooo =Octal value
+    \xhh =Hex value
+   
+2. n= new line
+   t= tab
+ 
+3. "\\"
+4. as howl's has a single inverted comma and at start and end point you used qoutes
+5. by using multiline strings
+6. e, hello, hello, lo, worls!
+7. HELLO, True, hello
+8. ['Remember,', 'remember,', 'the', 'fifth', 'of', 'July'], 'There-can-only-one'
+9. rjust(), ljust(), center()
+10. lstrip() and rstrip()

@@ -1,0 +1,8 @@
+1. d={}
+2. d={'foo':42}
+3. dictionary comes with key and value pairs whereas list comes with just values
+4. it will throw a keyword error
+5. there is no difference
+6. 'cat' in spam means it is situated in spam in whatever form ,'cat' in spam.values() means it is a value of a key
+7. spam.setdefault('colour':'black')
+8. pprint.pprint()

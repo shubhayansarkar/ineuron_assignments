@@ -1,0 +1,23 @@
+1) re.compile()
+2) if I use raw strings backslashes don't have to be escaped
+3) returns matched objects
+4) I would use group()
+5) group 0 is the entire match, group 1 covers the first set of parentheses, and group 2 covers the second set of parentheses
+6) periods and parentheses can be escaped with a " \ "
+7) if the regex has no groups, a list of strings is returned. If the regex has groups, a list of tuples of strings is returned
+8) bitwise or
+9) signifies matching "either, or" between two groups
+10) the + matches one or more and the * matches zero or more
+11) {4} matches exactly three instances of the preceding group and {4,5} matches between four and five instances
+12) match a single digit, word, or space character, respectively
+13) match a single character that is not a digit, word, or space character, respectively
+14) (.*?) matches any character (.) any number of times (*), as few times as possible to make the regex match (?).(.*)? captures a group zero or one times (?). That group consists of a run of any length (*) of any character (.). This also will match anything, but it will capture the first line, since the dot matches anything except a newline
+
+15) either [0-9a-z] or [a-z0-9]
+16) Passing re.I or re.IGNORECASE as the second argument to re.compile() will make the matching case insensitive.
+17) . character  matches any character except the newline character. If re.DOTALL is passed as the second argument to re.compile(), then the dot will also match newline characters
+18) 'X drummers, X pipers, five rings, X hen'
+19) the re.VERBOSE argument allows you to add whitespace and comments to the string passed to re.compile()
+20) re.compile(r'^\d{1,3}(,\d{3})*$') will create this regex, but other regex strings can produce a similar regular expression
+21) re.compile(r'[A-Z][a-z]*\sWatanabe')
+22) re.compile(r'(Alice|Bob|Carol)\s(eats|pets|throws)\s(apples|cats|baseballs)\.', re.IGNORECASE)  

@@ -1,0 +1,2 @@
+1. SELECT * FROM x1 e1 INNER JOIN x2 e2 ON e1.id = e2.id;
+2. SELECT * FROM table2 WHERE name NOT IN(SELECT * FROM table1);

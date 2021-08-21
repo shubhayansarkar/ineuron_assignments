@@ -1,0 +1,2 @@
+1. SELECT * FROM test where x2 in(select x2 FROM test4 WHERE (x2)%2 <> 0);
+2. CREATE TABLE new_table SELECT * FROM old_table;
